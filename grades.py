@@ -9,7 +9,7 @@ elif bio_score <= 40:
 elif phy_score <= 40:
     print("fail")
 
-elif score = (chem_score + bio_score + phy_score)/3:
+elif (score = (chem_score + bio_score + phy_score)/3:
     print (chem_score, "+", bio_score, "+", phy_score, "÷ 3 = ", score, "%")
 
 if score >=70: 
