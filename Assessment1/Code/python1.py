@@ -36,14 +36,14 @@
 
 def one(input1, input2):
 
-	if len(input1) == len(input2):
-		print(input1 + " " + input2)
-
-	if len(input1)> len(input2):
-		print(input1) 
-
 	if len(input1) < len(input2):
-		print(input2)
+		return input2
+	elif len(input1)> len(input2):
+		return input1
+	else:
+		return input1 + " " + input2
+
+
 
 	# <QUESTION 2>
 
@@ -67,14 +67,15 @@ def one(input1, input2):
 	
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
-#def two(input):
-#	lower = input.lower()
-#
-#
-#
-#	return ""
-#
+def two(input):
+	count = 0
+	string1 = input.lower()
+	startofbert = []
 
+		for i in range(len(str))
+			if string1[i] = "b" and string1[i+1] ="e" and string1[i+2] ="r" and string1[i+3] ="t"
+				first_bert.append(string[i+4])
+				count += 4
 
 
 	# <QUESTION 3>
@@ -97,7 +98,7 @@ def one(input1, input2):
 	# No Hints for this question
 
 def three(arg1):
-	
+
     if arg1%3 ==0 and arg1% 5 ==0: 
         return "fizzbuzz"
     elif arg1%3 == 0:
